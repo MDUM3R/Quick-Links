@@ -1,0 +1,80 @@
+/* Reset some basic elements */
+body, h1, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  /* Container styling */
+  .container {
+    text-align: center;
+    background-color: #1e1e1e; /* Slightly lighter dark shade */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  /* Heading styling */
+  h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  /* Links container */
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Individual link styling */
+  .link-item {
+    background-color: #333333;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+  }
+  
+  /* Icon styling */
+  .link-item i {
+    margin-right: 10px;
+  }
+  
+  /* Hover effects */
+  .link-item:hover {
+    background-color: #6fbf3e; /* Highlight color */
+    transform: translateY(-3px);
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 480px) {
+    .container {
+      padding: 20px;
+    }
+  
+    .link-item {
+      font-size: 16px;
+      padding: 12px;
+    }
+  }
+  
